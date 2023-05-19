@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LayerNames:
   - Default
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Long250
+  - Long250Asm
+  - Base
+  - Attached
+  - Long120S
+  - Long120Asm
+  - Long120P
   - 
   - 
   - 

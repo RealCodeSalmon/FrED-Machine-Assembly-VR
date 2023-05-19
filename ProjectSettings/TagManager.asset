@@ -3,15 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Long250_1
+  - Long250_2
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - PhyLong250
   - Water
   - UI
-  - 
+  - PhyParts
   - 
   - 
   - 
