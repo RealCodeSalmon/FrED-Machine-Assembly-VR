@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &9018512798774282723
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4879476440741153178, guid: 1314313cb0ee22c47bcca0bf74f81768,
+        type: 3}
+      propertyPath: m_Name
+      value: Ghost Rail
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879476440741153180, guid: 1314313cb0ee22c47bcca0bf74f81768,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -3193876081551087647, guid: 30bd99bb58c7562449d39b92f24bb43f,
+        type: 3}
+    - target: {fileID: 4879476440741153181, guid: 1314313cb0ee22c47bcca0bf74f81768,
+        type: 3}
+      propertyPath: subAssmManager
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879476440741153182, guid: 1314313cb0ee22c47bcca0bf74f81768,
+        type: 3}
+      propertyPath: m_InteractionManager
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879476440741153182, guid: 1314313cb0ee22c47bcca0bf74f81768,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4194320
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879476440741153183, guid: 1314313cb0ee22c47bcca0bf74f81768,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879476440741153183, guid: 1314313cb0ee22c47bcca0bf74f81768,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.001866
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879476440741153183, guid: 1314313cb0ee22c47bcca0bf74f81768,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879476440741153183, guid: 1314313cb0ee22c47bcca0bf74f81768,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.4637784
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879476440741153183, guid: 1314313cb0ee22c47bcca0bf74f81768,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879476440741153183, guid: 1314313cb0ee22c47bcca0bf74f81768,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879476440741153183, guid: 1314313cb0ee22c47bcca0bf74f81768,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879476440741153183, guid: 1314313cb0ee22c47bcca0bf74f81768,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879476440741153183, guid: 1314313cb0ee22c47bcca0bf74f81768,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879476440741153183, guid: 1314313cb0ee22c47bcca0bf74f81768,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879476440741153183, guid: 1314313cb0ee22c47bcca0bf74f81768,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1314313cb0ee22c47bcca0bf74f81768, type: 3}
+--- !u!1 &4512413741421346937 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4879476440741153178, guid: 1314313cb0ee22c47bcca0bf74f81768,
+    type: 3}
+  m_PrefabInstance: {fileID: 9018512798774282723}
+  m_PrefabAsset: {fileID: 0}
+--- !u!135 &4260689202868317816
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4512413741421346937}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.15
+  m_Center: {x: 0.000026274472, y: 0.0014212634, z: 0}

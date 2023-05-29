@@ -7,10 +7,11 @@ public class SocketScript : MonoBehaviour
 {
     [SerializeField] private SubAssemblyManager subAssmManager;
     private XRSocketInteractor socket;
-
+    private MeshRenderer meshRenderer;
     private void Awake()
     {
         socket = GetComponent<XRSocketInteractor>();
+        meshRenderer = GetComponent<MeshRenderer>();
     }
 
     private void OnEnable()
@@ -31,7 +32,7 @@ public class SocketScript : MonoBehaviour
         subAssmManager.CompletedTask();
 
         //Get GameObject reference from the object inside socket
-        IXRSelectInteractable snapObjInteractable = socket.GetOldestInteractableSelected();
+        IXRSelectInteractable snapObjInteractable = arg0.interactableObject;
         GameObject snapObjGameObject = snapObjInteractable.transform.gameObject;
 
         //Lock in Place
@@ -40,6 +41,10 @@ public class SocketScript : MonoBehaviour
 
         //Disable Hovers 
         socket.showInteractableHoverMeshes = false;
+        socket.interactionLayers = InteractionLayerMask.GetMask("Attached");
+
+        //Set Ghost to transparent
+        meshRenderer.material.color = new Color(1, 1, 1, 0);
     }
 
     //Should in theory never be called, we'll see hehe 
